@@ -1,11 +1,15 @@
-const isClosedBr = (bracket) => [')', ']', '}'].indexOf(bracket) > -1;
+function isClosedBr(bracket, e) {
+  return [')', ']', '}'].indexOf(bracket) > -1;
+};
 
-const isValid = (str) => {
+function isValid(str) {
   const brackets = {
     ')': '(',
     ']': '[',
     '}': '{'
   };
+
+
   const stack = [];
   for (let i = 0; i < str.length; i++) {
     if (isClosedBr(str[i])) {

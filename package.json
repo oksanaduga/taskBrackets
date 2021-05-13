@@ -1,0 +1,22 @@
+{
+  "name": "taskbrackets",
+  "version": "1.0.0",
+  "description": "task for checking the validity of closing and opening brackets in a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oksanaduga/taskBrackets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oksanaduga/taskBrackets/issues"
+  },
+  "homepage": "https://github.com/oksanaduga/taskBrackets#readme",
+  "dependencies": {
+    "esprima": "^4.0.1"
+  }
+}
