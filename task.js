@@ -24,4 +24,5 @@ const reversePrint = (linkedList) => {
   values = values.join();
 
   console.log(values);
+  console.log('something new')
 }
